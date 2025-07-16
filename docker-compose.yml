@@ -25,6 +25,7 @@ services:
       - DB_NAME=wallet_db
       - DB_USER=wallet_user
       - DB_PASSWORD=wallet_pass
+      - DJANGO_SETTINGS_MODULE=wallet_api.settings
     env_file:
       - .env
 
